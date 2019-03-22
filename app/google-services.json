@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "52743911789",
+    "firebase_url": "https://cuedadora.firebaseio.com",
+    "project_id": "cuedadora",
+    "storage_bucket": "cuedadora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52743911789:android:cecd7021ade6b67a",
+        "android_client_info": {
+          "package_name": "silcalculator.mohammed.mcsc.cuidadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52743911789-llt7qvkb7dokas21jor3n900tfmv0vas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "silcalculator.mohammed.mcsc.cuidadora",
+            "certificate_hash": "9710682e6424346bc9f2bdca9361688fd51e196f"
+          }
+        },
+        {
+          "client_id": "52743911789-jhtkkhlgaeoop9aiju7jhnr8j5p35a5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMCkvcExCYhExiI15aoc8Zawe2vmv1azk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52743911789-jhtkkhlgaeoop9aiju7jhnr8j5p35a5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

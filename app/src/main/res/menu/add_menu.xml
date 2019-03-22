@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+        <item
+            android:id="@+id/publick"
+            android:title="Puplick"/>
+        <item
+            android:id="@+id/editProfile"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/editcurreclum"
+            android:title="Edit Curreiculum" />
+
+    </group>
+
+</menu>

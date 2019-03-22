@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff252e39">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ff252e39">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="horizontal">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:id="@+id/imge_prof"
+                        android:layout_width="257dp"
+                        android:layout_height="127dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/person"
+                        app:civ_border_color="#EEEEEE"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#8BC34A"
+                        app:civ_shadow_radius="10" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nameText"
+                            android:layout_width="match_parent"
+                            android:layout_height="63dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:hint="@string/NomeP"
+                            android:textColor="#ffffffff"
+                            android:textSize="21sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#ff252e39"
+            app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/EmailP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/EmailP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/TelefoneP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/numberphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/TelefoneP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Celular"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/celular"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Celular"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/DataNP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/DataP"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/DataNP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/SexoP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/SexoP"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/SexoP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Endereço"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/endereco"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Endereço"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Bairro"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bairro"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Bairro"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/CEP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cep"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/CEP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cidadeP"
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/CidadeP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/CidadeP"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/CidadeP"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/EstadoP"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/EstadoP"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/EstadoP"
+                        android:textColor="#ff252e39" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Altura"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/altura"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Altura"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Peso"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/peso"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Peso"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Filhos"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/filhos"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Filhos"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Idade_dos_filhos"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/idadefilhos"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Idade_dos_filhos"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Nacionalidade"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nacionalidade"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Nacionalidade"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Naturalidade"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/naturalidade"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Naturalidade"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Estado_civil"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/estado_civil"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Estado_civil"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/RG"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/RG"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/CPF"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cpf"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/CPF"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Escolaridade"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/escolaridade"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Escolaridade"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Carteira"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carteiraprof"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Carteira"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Serie"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/serie"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/Serie"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/Carteira2"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carteirahab"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml"
+                        android:gravity="center"
+                        android:hint="@string/Carteira2"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="220dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:gravity="center"
+                        android:text="@string/categoria2"
+                        android:textColor="#ffffffff"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/categoriaC"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/butoon_xml2"
+                        android:gravity="center"
+                        android:hint="@string/categoria2"
+                        android:textColor="#ff252e39"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

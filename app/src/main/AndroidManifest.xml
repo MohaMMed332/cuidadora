@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="silcalculator.mohammed.mcsc.cuidadora">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirebaseLogin.LoginActivity" />
+        <activity android:name=".FirebaseLogin.CadastroActivity" />
+        <activity android:name=".Activity.PatroaPrincipa" />
+        <activity android:name=".Splash.WelcomeActivity" />
+        <activity android:name=".Curriculum.CurreiculumActivity" />
+        <activity android:name=".Curriculum.CurreiculumEdit" />
+        <activity android:name=".Post.PostAdapter" />
+        <activity android:name=".Post.PostDetail" />
+        <activity android:name=".Post.PostAdd" />
+        <activity android:name=".Curriculum.CurreiculumList" />
+        <activity android:name=".Activity.Chat" />
+        <activity android:name=".People.PeopleList" />
+        <activity android:name=".Activity.About" />
+        <activity android:name=".Activity.Settings" />
+        <activity android:name=".Post.PostList" />
+        <activity android:name=".Curriculum.CurreiculumAdapter" />
+        <activity android:name=".People.PeopleAdapter" />
+        <activity android:name=".Curriculum.CurreiculumDetail" />
+        <activity android:name=".Post.PostProfile" />
+        <activity android:name=".Curriculum.Profile" />
+        <activity android:name=".Comment.ComentMen"></activity>
+    </application>
+
+</manifest>

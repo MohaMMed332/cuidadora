@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_feed.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:ignore="NamespaceTypo"
+    card_view:cardCornerRadius="4dp">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        card_view:cardCornerRadius="16dp"
+        android:layout_alignParentRight="true">
+
+        <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffffff"
+            ads:corner_radius="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <WebView
+                    android:minHeight="50dp"
+                    android:id="@+id/Image_Cureeculm"
+                    android:layout_width="match_parent"
+                    android:layout_height="362dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="visible"
+                    app:ignore="WebViewLayout">
+
+                </WebView>
+
+                <TextView
+                    android:id="@+id/name_Cureeculm"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/Image_Cureeculm"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/Nome"
+                    android:textColor="@color/text_like_counter"
+                    android:layout_alignParentLeft="true" />
+
+            </LinearLayout>
+        </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

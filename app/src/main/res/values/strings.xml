@@ -1,0 +1,160 @@
+<resources>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="user_profile_photo">user profile photo</string>
+    <string name="categoria2">Categoria</string>
+
+
+    <string name="app_name">Cuidadora</string>
+    <string name="Sobre">Sobre</string>
+    <string name="Profissao">Profissão</string>
+    <!-- profile de cuidadora  !-->
+    <string name="Nome">Nome</string>
+    <string name="Data_de_nascimento">Data de nascimento</string>
+    <string name="Estado_civil">Estado Civil</string>
+    <string name="Filhos">Filhos</string>
+    <string name="Idade_dos_filhos">Idade</string>
+    <string name="Nacionalidade">Nacionalidade</string>
+    <string name="Naturalidade">Naturalidade</string>
+    <string name="Endereço">Endereço</string>
+    <string name="Bairro">Bairro</string>
+    <string name="CEP">CEP</string>
+    <string name="Cidade">Cidade</string>
+    <string name="Estado">Estado</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="Sair">Sair</string>
+    <string name="Entrou">Entrou</string>
+    <string name="RG">RG</string>
+    <string name="Você_realmente_quer_sair_da_conta">Você realmente quer sair da conta</string>
+    <string name="Sair_da_conta">Sair da conta</string>
+    <string name="CPF">CPF</string>
+    <string name="Carteira">Carteira Profissional</string>
+    <string name="Serie">Série</string>
+    <string name="Carteira2">Carteira de habilitação</string>
+    <string name="Telefone">Telefone</string>
+    <string name="Celular">Celular</string>
+    <string name="Email">E-mail</string>
+    <string name="Escolaridade">Escolaridade</string>
+    <string name="Fuma">Fuma</string>
+    <string name="Altura">Altura</string>
+    <string name="Peso">Peso</string>
+    <!-- curriculum de cuidadora !-->
+
+    <string name="Experiência_profissional">Experiência profissional</string>
+    <string name="Último_local_que_trabalhou">Último local que trabalhou</string>
+    <string name="Data_de_entrada">Data de entrada</string>
+    <string name="Data_de_saída">Data de saída</string>
+    <string name="Tipo_de_trabalho">Tipo de trabalho</string>
+    <string name="Áreas_de_conhecimento">Áreas de conhecimento</string>
+    <string name="Cursos">Cursos</string>
+    <string name="Certificados">Certificado</string>
+    <string name="Idiomas">Idiomas</string>
+    <string name="Horário_disponível">Horário disponível</string>
+    <string name="Pode_dormir_no_emprego">Pode dormir no emprego?</string>
+    <string name="Pode_hospital">Pode dormir no hospital?</string>
+    <string name="Informações_adicionais">Informações adicionais</string>
+    <string name="label_button_cta_canteen_intro" translatable="false">Get started</string>
+    <!-- Cadastro de patroa !-->
+    <!-- nome,data de nascimento,endereço,bairro,CEP,cidade,RG,CPF,telefone,celular,e-mail !-->
+    <string name="Informações">Informações</string>
+    <string name="Nome_do_idoso">Nome do (a) idoso (a)</string>
+    <string name="Acamado">Acamado?</string>
+    <string name="Deficiênte">Deficiênte físico?</string>
+    <string name="Estado_geral">Estado geral de saúde</string>
+
+    <string name="Cuidadora">Cuidadora</string>
+    <string name="bem_vindo">bem vindo</string>
+    <string name="Login">Login</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Senha">Senha</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Crie_sua_conta_grátis">Crie sua conta grátis</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Termos_de_uso">Termos de uso</string>
+    <string name="Confirmar_senha">Confirmar senha</string>
+
+    <string name="Contratante">Contratante</string>
+    <string name="EmailP">E-mail</string>
+    <string name="NomeP">Nome Completo</string>
+    <string name="TelefoneP">Telefone</string>
+    <string name="SexoP">Sexo</string>
+    <string name="SenhaP">Novo Senha</string>
+    <string name="SexoFP">Sexo Feminina</string>
+    <string name="SexoMP">Masculino</string>
+    <string name="SexoOP">SexoO</string>
+    <string name="CidadeP">Cidade</string>
+    <string name="EstadoP">Estado</string>
+    <string name="DataNP">Aniversário</string>
+
+    <string name="Deliciosas_receitas">Deliciosas receitas</string>
+    <string name="Faça_o_seu_pedido">Escolha a sua receita</string>
+    <string name="O_poder_dos_alimentos">O poder dos alimentos</string>
+    <string name="Estamos_a_disposição">Estamos a disposição</string>
+    <string name="Sugestões">Sugestões</string>
+    <string name="Benefícios_de_uma_alimentação_saudável">Benefícios de uma alimentação saudável</string>
+    <string name="Quanto_mais_cor_melhor">Quanto mais cor, melhor!</string>
+    <string name="Junte_se_a_mais_de_meio_milhão_de_pessoas_e_comece_ja">Junte-se a mais de meio milhão de pessoas e comece já</string>
+    <string name="Já_tenho_conta">Já tenho conta</string>
+    <string name="Sobre_Nome">Sobrenome</string>
+    <string name="Publicações">Publicações</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Chat">Chat</string>
+    <string name="EditCurreculum">Edit curriculum</string>
+    <string name="Mais">Mais</string>
+    <string name="Suporte">Suporte</string>
+    <string name="Fechar_o_menu">Fechar o menu</string>
+    <string name="Sobre_o_APP">Sobre o APP</string>
+    <string name="Fale_conosco">Fale conosco</string>
+    <string name="Digite_aqe">Digite aqui</string>
+    <string name="Nome_da_receita">Nome da receita</string>
+    <string name="Ingredientes">Ingredientes</string>
+    <string name="Modo_de_Preparo">Modo de Preparo</string>
+    <string name="Apagar_mensagem">Apagar mensagem</string>
+    <string name="Tem_certeza_que_quer_apagar_esta_mensagem">Tem certeza que quer apagar esta mensagem?</string>
+    <string name="Não">Não</string>
+    <string name="Carregando">Carregando</string>
+    <string name="não_carregou">Não carregou </string>
+    <string name="Tem_certeza_que_quer_sair">Tem certeza que quer sair?</string>
+    <string name="Desconhecido">Desconhecido</string>
+    <string name="Favor_preencher">Favor preencher</string>
+    <string name="Carregamento_completo">Carregamento completo</string>
+    <string name="Preencher_a_senha">Preencher a senha</string>
+    <string name="Preencher_o_email">Preencher o e-mail</string>
+    <string name="Preencher_o_nome">Preencher o nome</string>
+    <string name="Preencher_o_telefone">Preencher o telefone</string>
+    <string name="Digite_uma_senha_mais_forte">Digite uma senha mais forte</string>
+    <string name="Por_favor_digite_um_email_válido">Por favor, digite um e-mail válido</string>
+    <string name="Esta_conta_já_foi_cadastrada">Esta conta já foi cadastrada</string>
+    <string name="Erro_ao_cadastrar">Erro ao cadastrar </string>
+    <string name="Não_pod_carregar_este_tamanho_de_imagem">Não pode carregar este tamanho de imagem</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Usuário_não_cadastrado">Usuário não cadastrado</string>
+    <string name="Email_e_senha_não_correspondem_a_um_usuário_cadastrado">E-mail e senha não correspondem a um usuário cadastrado</string>
+    <string name="Erro_ao_cadastrar_usuário">Erro ao cadastrar usuário</string>
+    <string name="Sem_conexão">Sem conexão</string>
+    <string name="Favor_deixar_seu_comentário">Favor deixar seu comentário</string>
+
+    <string name="chat">chat/grupos</string>
+    <string name="comments">chat/comments</string>
+    <string name="Grupos">chat/Grupos</string>
+    <string name="patepabo">chat/public</string>
+    <string name="Word">public</string>
+    <string name="Cureculum">Curriculum/</string>
+
+    <string name="Confirme_a_saهda">Confirme a saída?</string>
+    <string name="Upload_de_imagem">Upload de imagem</string>
+    <string name="Confirma_a_senha">Preencher local de confirmar senha</string>
+    <string name="Error_Conf_senha">Senha não corresponde</string>
+    <string name="inserir_image">Favor inserir uma imagem!</string>
+
+
+    <string-array name="country_arrays">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+
+</resources>
